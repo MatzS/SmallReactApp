@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.singleCommunityContainer{
+    width: 100%;
+    margin: 10px auto 50px auto;
+}
+
+@media only screen and (min-width: 600px){
+    .singleCommunityContainer{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .singleCommunityContainer{
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .singleCommunityContainer{
+        width: 40%;
+        margin: auto;
+    }
+}
+
+.communityHeaderImage{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.communityHeaderImage >img{
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+    margin-top: 30px;
+}
+
+.communityHeaderName{
+    position: relative;
+    bottom: 150px;
+    width: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(270deg, rgba(2,0,36,1) 0%,
+     rgba(180,221,218,1) 0%, rgba(192,222,215,1) 0%,
+      rgba(174,221,219,0.29735644257703087) 40%,
+       rgba(0,212,255,1) 100%);
+}
+
+.communityHeaderName >h1{
+    padding: 10px;
+}

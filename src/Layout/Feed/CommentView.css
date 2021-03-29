@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.commentsContainer{
+    margin-top: 30px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    background-color: #eee;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px grey ;
+}
+
+.commentsContainer >h1{
+    text-align: center;
+}
+
+.commentUserHeader{
+    display: grid;
+    grid-template-columns: 1fr 11fr;
+    border-bottom: 1px gray solid;
+    width: 100%;
+}
+
+.ommentNameTimeContainer{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+.commentProfilePictureContainer > img{
+    width: 100%;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.commentBody{
+    font-size: 25px;
+}

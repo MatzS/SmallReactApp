@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.postFooterContainer{
+    width: 100%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.postFooterContainer > button{
+    border: 1px solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.postFooterContainer > button:hover{
+    background-color: white;
+}
+
+.postFooterContainer > button:focus{
+    outline: 0;
+}
+
+.postFooterContainer > button:active{
+    background-color: lightblue;
+    transition: all 0.5;
+}
+
+.footerButtonImage{
+    height: 30px;
+}
+
+.footerCommentIcon{
+    height: 30px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.footerLabel{
+    margin-left: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}

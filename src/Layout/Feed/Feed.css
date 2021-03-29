@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+*::-webkit-scrollbar{
+    display: none;
+}
+
+.feedContainer{
+    width: 100%;
+    margin: auto;
+}
+
+.feedContainer:last-child{
+    margin-bottom: 70px;
+}
+
+
+@media only screen and (min-width: 600px){
+    .feedContainer{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .feedContainer{
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .feedContainer{
+        width: 35%;
+        margin: auto;
+    }
+}

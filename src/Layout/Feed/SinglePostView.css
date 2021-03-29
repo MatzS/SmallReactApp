@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.singlePostContainer{
+    width: 100%;
+    margin: auto;
+}
+
+@media only screen and (min-width: 600px){
+    .singlePostContainer{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .singlePostContainer{
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .singlePostContainer{
+        width: 35%;
+        margin: auto;
+    }
+}

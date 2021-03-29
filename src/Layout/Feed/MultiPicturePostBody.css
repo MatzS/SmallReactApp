@@ -1,0 +1,22 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.mySlides{
+  width: 90%;
+  margin: auto;
+}
+
+.mySlides > img{
+  width: 100%;
+}
+
+.appears{
+  display: block;
+}
+
+
+.gone{
+  display: none;
+}

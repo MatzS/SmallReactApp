@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.linkPreviewContainer{
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.previewImage{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: auto;
+    display: block;
+    z-index: 0;
+}
+
+.infoBox{
+    position: relative;
+    bottom : 150px;
+    background-color: rgb(255, 235, 205,0.5);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.titleBox {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.descriptionBox{
+    font-size: 14px;
+    font-weight: lighter;
+    margin-left: 5px;
+    margin-right: 5px;
+}

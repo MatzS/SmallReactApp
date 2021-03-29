@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#bottomNavGroup{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#bottomNavButton{
+    width: 100%;
+    border-radius: 0px;
+}
+
+#bottomNavButton:active{
+    border: none;
+}
